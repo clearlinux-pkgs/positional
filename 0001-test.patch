@@ -1,0 +1,25 @@
+From 5203de3632b69e1f59fc00c1a449b0156f0478ec Mon Sep 17 00:00:00 2001
+From: Alberto Murillo <alberto.murillo.silva@intel.com>
+Date: Wed, 17 Feb 2016 16:10:21 -0600
+Subject: [PATCH] test
+
+---
+ test-requirements.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/test-requirements.txt b/test-requirements.txt
+index 26aa94d..08462d3 100644
+--- a/test-requirements.txt
++++ b/test-requirements.txt
+@@ -2,7 +2,7 @@
+ # of appearance.
+ 
+ hacking<0.11,>=0.10.0
+-flake8-docstrings==0.2.1.post1
++flake8-docstrings
+ 
+ coverage>=3.6
+ fixtures>=1.3.1
+-- 
+2.5.0
+
