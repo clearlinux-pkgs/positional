@@ -4,7 +4,7 @@
 #
 Name     : positional
 Version  : 1.0.1
-Release  : 1
+Release  : 2
 URL      : https://pypi.python.org/packages/source/p/positional/positional-1.0.1.tar.gz
 Source0  : https://pypi.python.org/packages/source/p/positional/positional-1.0.1.tar.gz
 Summary  : Library to enforce positional or key-word arguments
