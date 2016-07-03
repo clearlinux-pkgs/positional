@@ -1,6 +1,17 @@
 CHANGES
 =======
 
+1.1.1
+-----
+
+* Update requirements.txt for pbr versions to match
+* Fix the python3 demo in README
+
+1.1.0
+-----
+
+* Fix to preserve argspec
+
 1.0.1
 -----
 
