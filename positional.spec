@@ -4,7 +4,7 @@
 #
 Name     : positional
 Version  : 1.1.1
-Release  : 5
+Release  : 6
 URL      : http://pypi.debian.net/positional/positional-1.1.1.tar.gz
 Source0  : http://pypi.debian.net/positional/positional-1.1.1.tar.gz
 Summary  : Library to enforce positional or key-word arguments
