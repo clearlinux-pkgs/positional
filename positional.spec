@@ -4,7 +4,7 @@
 #
 Name     : positional
 Version  : 1.1.1
-Release  : 8
+Release  : 9
 URL      : http://pypi.debian.net/positional/positional-1.1.1.tar.gz
 Source0  : http://pypi.debian.net/positional/positional-1.1.1.tar.gz
 Summary  : Library to enforce positional or key-word arguments
@@ -38,13 +38,15 @@ python components for the positional package.
 
 %build
 export LANG=C
+export SOURCE_DATE_EPOCH=1484562744
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
+export SOURCE_DATE_EPOCH=1484562744
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
-python3 -tt setup.py build -b py3 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)
