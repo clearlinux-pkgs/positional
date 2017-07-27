@@ -1,6 +1,20 @@
 CHANGES
 =======
 
+1.1.2
+-----
+
+* Update setup.cfg
+* Update .travis.yml
+* Fix deprecation warning in Python 3 for inspect.getargspec()
+* Update .travis.yml
+* Update .travis.yml
+* Update .travis.yml
+* Update setup.cfg
+* Update tox.ini
+* Update .travis.yml
+* update classifiers
+
 1.1.1
 -----
 
