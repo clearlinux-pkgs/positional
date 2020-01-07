@@ -4,7 +4,7 @@
 #
 Name     : positional
 Version  : 1.2.1
-Release  : 18
+Release  : 19
 URL      : https://files.pythonhosted.org/packages/24/7e/3b1450db76eb48a54ea661a43ae00950275e11840042c5217bd3b47b478e/positional-1.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/24/7e/3b1450db76eb48a54ea661a43ae00950275e11840042c5217bd3b47b478e/positional-1.2.1.tar.gz
 Summary  : Library to enforce positional or key-word arguments (deprecated/unmaintained)
